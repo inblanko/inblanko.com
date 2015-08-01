@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html class='dark'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>In Blanko – inblanko.com</title>
+    <meta name='description' content='Gram w gry do mikrofonu.'>
+    <style type='text/css'>
+      html, body { height: 100%; margin: 0; }
+      html { background: url('images/background_tile_invert.png') top left repeat; }
+      body { background: url('images/in_blanko_invert.png') center center no-repeat; }
+      .dark { background: url('images/background_tile.png') top left repeat; }
+      .dark body { background: url('images/in_blanko.png') center center no-repeat; }
+    </style>
+  </head>
+  <body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-48119901-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script type='text/javascript'>
+      var hour = (new Date).getHours();
+      if (hour >= 6 && hour < 18)
+        document.getElementsByTagName('html')[0].removeAttribute('class');
+    </script>
+  </body>
+</html>
